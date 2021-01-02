@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BrukhoLevin</title>
+<link rel="shortcut icon" href="./image/icon.ico">
+<style>	
+	.serif {font-family: "Times New Roman", Times, serif;} 
+	.title {line-height: 0.3; font-family: "Times New Roman", Times, serif;}
+	.topdir {font-size: 30px;}
+	.file {font-size: 17px;}
+	.subdir {cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+	.subdir::before {content: "+"; color: white; display: inline-block; margin-right: 6px;}
+	.subdir-open::before {content: "-"; color: white; display: inline-block; margin-right: 6px;}
+	.nested {display: none;}
+	.active {display: block; margin-left: 50px;}
+	body {background-color: black;}
+	h1 {color: white;}
+	h2 {color: white;}
+	h3 {color: white;}
+	h4 {color: white;}
+	h5 {color: white;}
+	h6 {color: white;}
+	p {color: white;}
+	a {color: white; text-decoration: none;}
+	ul {list-style-type: none; margin: 0; padding: 0; color: white;}
+	li {color: white;}
+</style>
+</head>
+<body>
+<p style="font-size:60px;" class="title">Brukho Levin</p>
+<ul>
+	<li class="topdir"><span class="subdir">Audio</span>
+		<ul class="nested">
+			<li class="file"><a href="./FPUO.html">FOR PROMOTIONAL USE ONLY. SALE OR OTHER TRANSFER IS PROHIBITED. MUST BE RETURNED ON DEMAND OF RECORDING COMPANY.</a></li>
+			<li class="file"><a href="./aut.html">Ⲇц☩</a></li>
+<!--			<li class="file"><a href="./SoundEtc.html">Etc.</a></li> -->
+		</ul>
+	</li>
+	<li class="topdir"><span class="subdir">Images</span>
+		<ul class="nested">
+			<li class="file"><a href="./FPUOimages.html">F.P.U.O. Images</a></li>
+			<li class="file"><a href="./autImages.html">Ⲇц☩ Set</a></li>
+		</ul>
+	</li>
+	<li class="topdir"><span class="subdir">Text</span>
+		<ul class="nested">
+			<li class="file"><a href="./end.html">Meeting at the End of Time</a></li>
+			<li class="file"><a href="./update.html">News</a></li>
+			<li class="file"><a href="./blog.html">Opinions</a></li>
+			<li class="file"><a href="./wordEtc.html">Misc.</a></li>
+		</ul>
+	</li>
+	<li class="topdir"><span class="subdir">Links</span>
+		<ul class="nested">
+			<li class="file"><a href="https://brukholevin.bandcamp.com">Bandcamp</a>
+			<li class="file"><a href="https://www.soundcloud.com/brukholevin">SoundCloud</a>
+			<li class="file"><a href="https://www.youtube.com/channel/UCMDN1RrNiiVaPA86VbLZWNQ">YouTube</a>
+			<li class="file"><a href="https://www.twitter.com/BrukhoL">Twitter</a></li>
+		</ul>
+	</li>
+	<li class="topdir"> <a href="mailto: brukholevin@protonmail.com">Contact</a></li>
+</ul>
+<br>
+<p style="font-size:10px;">ALL CONTENT ON THIS WEBSITE IS LICENSED UNDER CC BY-SA 4.0</p>
+<script>
+var toggler = document.getElementsByClassName("subdir");
+var i;
+
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("subdir-open");
+  });
+}
+</script>
+
+</body>
+</html>
