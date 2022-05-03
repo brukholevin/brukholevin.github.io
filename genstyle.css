@@ -1,0 +1,22 @@
+.serif {font-family: "Times New Roman", Times, serif;} 
+.title {margin-top:10px; margin-bottom:10px; font-family: "Times New Roman", Times, serif;}
+.topdir {font-size: 30px; font-family: "Times New Roman", Times, serif;}
+.file {font-size: 17px; font-family: "Times New Roman", Times, serif;}
+.subdir {cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+.subdir::before {content: "+"; color: white; display: inline-block; margin-right: 6px; font-family: "Times New Roman", Times, serif;}
+.subdir-open::before {content: "-"; color: white; display: inline-block; margin-right: 6px; font-family: "Times New Roman", Times, serif;}
+.nested {display: none;}
+.active {display: block; margin-left: 50px; font-family: "Times New Roman", Times, serif;}
+.col{float: left; width: 20%; padding: 5px;}
+.nobreak { white-space: nowrap }
+body {background-color: black;}
+h1 {color: white; font-family: "Times New Roman", Times, serif;}
+h2 {color: white; font-family: "Times New Roman", Times, serif;}
+h3 {color: white; font-family: "Times New Roman", Times, serif;}
+h4 {color: white; font-family: "Times New Roman", Times, serif;}
+h5 {color: white; font-family: "Times New Roman", Times, serif;}
+h6 {color: white; font-family: "Times New Roman", Times, serif;}
+p {color: white; font-family: "Times New Roman", Times, serif;}
+a {color: white; font-family: "Times New Roman", Times, serif; text-decoration: none;}
+ul {list-style-type: none; margin: 0; padding: 0; color: white; font-family: "Times New Roman", Times, serif;}
+li {color: white; font-family: "Times New Roman", Times, serif;}
