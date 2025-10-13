@@ -9,7 +9,7 @@
 .subdir-open::before {content: "-"; color: white; display: inline-block; margin-right: 6px; font-family: "Times New Roman", Times, serif;}
 .nested {display: none;}
 .active {display: block; margin-left: 50px; font-family: "Times New Roman", Times, serif;}
-.col{float: left; width: 20%; padding: 5px;}
+.col{float: left; width: 20%; height:auto; padding: 5px;}
 .nobreak { white-space: nowrap }
 .ul1 {list-style-type: square; list-style-position:inside;}
 .imheader{display:block;margin-left:auto;margin-right:auto;}/*add width?*/
